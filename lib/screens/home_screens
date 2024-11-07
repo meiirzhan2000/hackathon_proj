@@ -1,0 +1,74 @@
+import 'package:flutter/material.dart';
+import 'package:tune_app/screens/home_screen.dart';
+import 'package:tune_app/screens/my_policies_screen.dart';
+import 'package:tune_app/screens/my_profile_screen.dart';
+import 'package:tune_app/screens/Support/support_screen.dart';
+
+class HomeScreen extends StatefulWidget {
+  static String routeName = '/home-screen';
+
+  final int pageNumber;
+
+  const HomeScreen({super.key, required this.pageNumber});
+
+  @override
+  State<HomeScreen> createState() => _HomeScreenState();
+}
+
+class _HomeScreenState extends State<HomeScreen> {
+  List pages = [
+    HomeScreens(),
+    MyPoliciesScreen(),
+    SupportScreen(),
+    MyProfileScreen()
+  ];
+  
+  int _currentIndex = 0;
+
+    @override
+  void initState() {
+    super.initState();
+    _currentIndex = widget.pageNumber;
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    return SafeArea(
+        top: true,
+        child: Scaffold(
+          body: pages[_currentIndex],
+          bottomNavigationBar: BottomNavigationBar(
+              type: BottomNavigationBarType.fixed,
+              selectedItemColor: Colors.red,
+              unselectedItemColor: Colors.grey.withOpacity(.60),
+              selectedFontSize: 14,
+              unselectedFontSize: 14,
+              currentIndex: _currentIndex,
+              onTap: (value) {
+                setState((){
+                  _currentIndex = value;
+                });
+              },
+              items: [
+                BottomNavigationBarItem(
+                  icon: Icon(Icons.home),
+                  label: 'Home',
+                ),
+                BottomNavigationBarItem(
+                  icon: Icon(Icons.policy),
+                  label: 'My Policies',
+                ),
+                BottomNavigationBarItem(
+                  icon: Icon(Icons.support),
+                  label: 'Support',
+                ),
+                BottomNavigationBarItem(
+                  icon: Icon(Icons.person),
+                  label: 'My Profile',
+                ),
+              ],
+            )
+        )
+        );
+      }
+}

@@ -1,0 +1,113 @@
+{
+  "project_info": {
+    "project_number": "970959745266",
+    "project_id": "brave-solders",
+    "storage_bucket": "brave-solders.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970959745266:android:7923a1a30338150179a06b",
+        "android_client_info": {
+          "package_name": "com.example.tune_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "970959745266-rhcbgi3m9e3kkds4419q5bucq0llpmto.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tune_app",
+            "certificate_hash": "b9fc6dfe01e2621a36b2f04c8de514605266ae17"
+          }
+        },
+        {
+          "client_id": "970959745266-5i3n0bq03faaqo86h8mdhv1sls37pbsf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBN6xXw1gzRozrNc93SaxC1f3mcieM13L0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "970959745266-5i3n0bq03faaqo86h8mdhv1sls37pbsf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970959745266:android:8a6d17a5f141135e79a06b",
+        "android_client_info": {
+          "package_name": "com.example.tune_app_apu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "970959745266-5i3n0bq03faaqo86h8mdhv1sls37pbsf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBN6xXw1gzRozrNc93SaxC1f3mcieM13L0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "970959745266-5i3n0bq03faaqo86h8mdhv1sls37pbsf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:970959745266:android:9d4e55e64fed083479a06b",
+        "android_client_info": {
+          "package_name": "com.example.tuneprotect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "970959745266-tc701o6mefsj4548tg3qrsm1lict6tgn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tuneprotect",
+            "certificate_hash": "b9fc6dfe01e2621a36b2f04c8de514605266ae17"
+          }
+        },
+        {
+          "client_id": "970959745266-5i3n0bq03faaqo86h8mdhv1sls37pbsf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBN6xXw1gzRozrNc93SaxC1f3mcieM13L0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "970959745266-5i3n0bq03faaqo86h8mdhv1sls37pbsf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
